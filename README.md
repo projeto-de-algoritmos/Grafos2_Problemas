@@ -37,7 +37,9 @@ Exercício resolvido pelo algoritmo de Djikstra, clique [aqui](./solucoes/2577.p
 
 ### 2642 - Design Graph With Shortest Path Calculator
 
+Exercício resolvido pelo algoritmo de Djikstra, clique [aqui](./solucoes/2642.py) para ver o código.
 
+![Print do exercício 2642](./img/2642.png)
 
 ## Instalação 
 **Linguagem**: Python 3
@@ -50,9 +52,9 @@ Para testar as soluções aqui propostas basta ir até o arquivo de [soluções]
 
 ## Outros 
 
-Para acessar o vídeo onde os códigos e algoritmos são explicados e detalhados, basta clicar [aqui](./videos/).
+Para acessar o vídeo onde os códigos e algoritmos são explicados e detalhados, basta clicar [aqui]().
 
-OBS: Os arquivos de vídeo estão com a extensão .mp4, o que faz necessário o download do arquivo para assistir ao vídeo.
+OBS: O arquivo de vídeo esta com a extensão .mp4, o que torna necessário o download do arquivo para assistir ao vídeo.
 
 
 
