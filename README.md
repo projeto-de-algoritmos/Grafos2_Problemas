@@ -25,13 +25,15 @@ Seguem aqui os screenshots das questões solucionadas, a seta de cada print serv
 
 ### 1489 - Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 
-Exercício resolvido pelo algoritmo de kruskal
+Exercício resolvido pelo algoritmo de Kruskal, clique [aqui](./solucoes/1489.py) para ver o código.
 
-![Alt text](./img/1489.png)
+![Print do exercício 1489](./img/1489.png)
 
 ### 2577 - Minimum Time to Visit a Cell In a Grid
 
+Exercício resolvido pelo algoritmo de Djikstra, clique [aqui](./solucoes/2577.py) para ver o código.
 
+![Print do exercício 2577](./img/2577.png)
 
 ### 2642 - Design Graph With Shortest Path Calculator
 
