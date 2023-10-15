@@ -1,24 +1,22 @@
 class Graph:
-
-    def __init__(self, n: int, edges: List[List[int]]):
+    def __init__(self, num_nodes: int, edge_list: List[List[int]]):
         self.graph = defaultdict(dict)
-        for a, b, cost in edges:
-            self.graph[a][b] = cost
+        for node_a, node_b, edge_cost in edge_list:
+            self.graph[node_a][node_b] = edge_cost
 
-    def addEdge(self, edge: List[int]) -> None:
-        a, b, cost = edge
-        self.graph[a][b] = cost
-        
+    def addEdge(self, edge_data: List[int]) -> None:
+        node_a, node_b, edge_cost = edge_data
+        self.graph[node_a][node_b] = edge_cost
 
-    def shortestPath(self, node1: int, node2: int) -> int:
-        g, seen = self.graph, set()
-        heap = [(0, node1)]
+    def shortestPath(self, start_node: int, end_node: int) -> int:
+        graph, seen = self.graph, set()
+        heap = [(0, start_node)]
         while heap:
-            cost, node = heappop(heap)
-            if node == node2:
-                return cost
-            if node not in seen and node in g:
-                seen.add(node)
-                for kid, cost1 in g[node].items():
-                    heappush(heap, (cost + cost1, kid))
+            total_cost, current_node = heappop(heap)
+            if current_node == end_node:
+                return total_cost
+            if current_node not in seen and current_node in graph:
+                seen.add(current_node)
+                for neighbor, edge_cost in graph[current_node].items():
+                    heappush(heap, (total_cost + edge_cost, neighbor))
         return -1
