@@ -25,7 +25,9 @@ Seguem aqui os screenshots das questões solucionadas, a seta de cada print serv
 
 ### 1489 - Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 
+Exercício resolvido pelo algoritmo de kruskal
 
+![Alt text](./img/1489.png)
 
 ### 2577 - Minimum Time to Visit a Cell In a Grid
 
