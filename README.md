@@ -52,7 +52,7 @@ Para testar as soluções aqui propostas basta ir até o arquivo de [soluções]
 
 ## Outros 
 
-Para acessar o vídeo onde os códigos e algoritmos são explicados e detalhados, basta clicar [aqui]().
+Para acessar o vídeo onde os códigos e algoritmos são explicados e detalhados, basta clicar [aqui](./video/Grafos%202%20-%20Rafael%20Bosi-20231016_211508-Gravação%20de%20Reunião.mp4).
 
 OBS: O arquivo de vídeo esta com a extensão .mp4, o que torna necessário o download do arquivo para assistir ao vídeo.
 
